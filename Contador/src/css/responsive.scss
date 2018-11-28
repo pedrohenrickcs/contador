@@ -1,0 +1,41 @@
+@import '_config';
+
+@media screen and (max-width:1024px){}
+
+@media screen and (max-width:768px){
+	.bloco-slidelist{
+  	top:240px;
+	}
+}
+
+@media screen and (max-width:568px){
+		.bloco-slidelist{
+	  	top:200px;
+	}
+	.fadeslider{
+		margin: 25px auto;
+	}
+	.txt{
+  		line-height:30px;
+		top:10px;
+	}
+	.slideback{
+		height:80px;
+	  	top:50px;
+	  		 &>img{
+	      padding-top: 30px;
+	    }
+	}
+	.slidenext{
+		height:80px;
+		top:50px;
+			&>img{
+	      padding-top: 30px;
+	    }
+	}
+}
+@media screen and (max-width:320px){
+	.bloco-slidelist{
+	  top:100px;
+	}
+}
