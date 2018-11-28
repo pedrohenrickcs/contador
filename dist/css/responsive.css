@@ -1,0 +1,60 @@
+@font-face {
+  font-family: 'icons';
+  src: url("../fonts/icons.eot");
+  src: url("../fonts/icons.eot?#iefix") format("embedded-opentype"), url("../fonts/icons.woff") format("woff"), url("../fonts/icons.ttf") format("truetype"), url("../fonts/icons.svg#icons") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'lato-light-italic';
+  src: url("../fonts/lato-light-italic.eot");
+  src: url("../fonts/lato-light-italic.eot?#iefix") format("embedded-opentype"), url("../fonts/lato-light-italic.woff") format("woff"), url("../fonts/lato-light-italic.ttf") format("truetype"), url("../fonts/lato-light-italic.svg#lato-light-italic") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+/*
+@mixin font-size($font-size, $line-height:true, $font-size-price:$base-font-size) {
+	font-size: $font-size;
+	font-size: ($font-size / $font-size-price) * 1em;
+
+	@if $line-height == true {
+		line-height: ceil($font-size / $base-line-height) * ($base-line-height / $font-size);
+
+	}
+}
+*/
+@media screen and (max-width: 768px) {
+  /* line 6, C:/Users/pedro.henrick/Documents/contador/src/css/responsive.scss */
+  .bloco-slidelist {
+    top: 240px; } }
+
+@media screen and (max-width: 568px) {
+  /* line 12, C:/Users/pedro.henrick/Documents/contador/src/css/responsive.scss */
+  .bloco-slidelist {
+    top: 200px; }
+  /* line 15, C:/Users/pedro.henrick/Documents/contador/src/css/responsive.scss */
+  .fadeslider {
+    margin: 25px auto; }
+  /* line 18, C:/Users/pedro.henrick/Documents/contador/src/css/responsive.scss */
+  .txt {
+    line-height: 30px;
+    top: 10px; }
+  /* line 22, C:/Users/pedro.henrick/Documents/contador/src/css/responsive.scss */
+  .slideback {
+    height: 80px;
+    top: 50px; }
+    /* line 25, C:/Users/pedro.henrick/Documents/contador/src/css/responsive.scss */
+    .slideback > img {
+      padding-top: 30px; }
+  /* line 29, C:/Users/pedro.henrick/Documents/contador/src/css/responsive.scss */
+  .slidenext {
+    height: 80px;
+    top: 50px; }
+    /* line 32, C:/Users/pedro.henrick/Documents/contador/src/css/responsive.scss */
+    .slidenext > img {
+      padding-top: 30px; } }
+
+@media screen and (max-width: 320px) {
+  /* line 38, C:/Users/pedro.henrick/Documents/contador/src/css/responsive.scss */
+  .bloco-slidelist {
+    top: 100px; } }
