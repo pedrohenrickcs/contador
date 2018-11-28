@@ -70,7 +70,6 @@ body {
 
 /* line 78, C:/Users/pedro.henrick/Documents/contador/src/css/style.scss */
 header {
-  background-color: #68cc92;
   display: inline-block;
   height: auto;
   position: relative;
@@ -78,7 +77,7 @@ header {
   width: 100%;
   opacity: 0.5; }
 
-/* line 89, C:/Users/pedro.henrick/Documents/contador/src/css/style.scss */
+/* line 87, C:/Users/pedro.henrick/Documents/contador/src/css/style.scss */
 #mask {
   background-color: #000;
   position: absolute;
@@ -90,7 +89,7 @@ header {
   opacity: 0.6;
   z-index: -99; }
 
-/* line 101, C:/Users/pedro.henrick/Documents/contador/src/css/style.scss */
+/* line 99, C:/Users/pedro.henrick/Documents/contador/src/css/style.scss */
 .video-desktop {
   position: fixed;
   right: 0;
@@ -100,23 +99,28 @@ header {
   width: auto;
   height: auto;
   z-index: -100; }
+  /* line 108, C:/Users/pedro.henrick/Documents/contador/src/css/style.scss */
+  .video-desktop iframe {
+    height: 100vh;
+    width: 100%;
+    transform: scale(1.4); }
 
-/* line 113, C:/Users/pedro.henrick/Documents/contador/src/css/style.scss */
+/* line 116, C:/Users/pedro.henrick/Documents/contador/src/css/style.scss */
 #contador {
   font-family: 'Gotham-ExtraLight';
   margin-top: 100px; }
   @media only screen and (max-width: 480px) {
-    /* line 113, C:/Users/pedro.henrick/Documents/contador/src/css/style.scss */
+    /* line 116, C:/Users/pedro.henrick/Documents/contador/src/css/style.scss */
     #contador {
       margin-top: 50px; } }
-  /* line 120, C:/Users/pedro.henrick/Documents/contador/src/css/style.scss */
+  /* line 123, C:/Users/pedro.henrick/Documents/contador/src/css/style.scss */
   #contador .txt-bloco-contador {
     letter-spacing: 20px;
     text-shadow: 1px 1px 1px #fff; }
-  /* line 125, C:/Users/pedro.henrick/Documents/contador/src/css/style.scss */
+  /* line 128, C:/Users/pedro.henrick/Documents/contador/src/css/style.scss */
   #contador .txt-bloco-time {
     font-family: 'Gotham-Light'; }
-  /* line 129, C:/Users/pedro.henrick/Documents/contador/src/css/style.scss */
+  /* line 132, C:/Users/pedro.henrick/Documents/contador/src/css/style.scss */
   #contador .txt-bloco-contador,
   #contador .txt-bloco-time {
     font-size: 80px;
@@ -124,64 +128,64 @@ header {
     text-align: center;
     text-transform: uppercase; }
     @media only screen and (max-width: 480px) {
-      /* line 129, C:/Users/pedro.henrick/Documents/contador/src/css/style.scss */
+      /* line 132, C:/Users/pedro.henrick/Documents/contador/src/css/style.scss */
       #contador .txt-bloco-contador,
       #contador .txt-bloco-time {
         font-size: 40px; } }
-  /* line 140, C:/Users/pedro.henrick/Documents/contador/src/css/style.scss */
+  /* line 143, C:/Users/pedro.henrick/Documents/contador/src/css/style.scss */
   #contador .txt-bloco-contador-down {
     letter-spacing: 0;
     text-transform: none; }
     @media only screen and (max-width: 480px) {
-      /* line 140, C:/Users/pedro.henrick/Documents/contador/src/css/style.scss */
+      /* line 143, C:/Users/pedro.henrick/Documents/contador/src/css/style.scss */
       #contador .txt-bloco-contador-down {
         font-size: 30px; } }
-  /* line 148, C:/Users/pedro.henrick/Documents/contador/src/css/style.scss */
+  /* line 151, C:/Users/pedro.henrick/Documents/contador/src/css/style.scss */
   #contador .txt-bloco-time {
     font-size: 150px;
     height: auto;
     padding-right: 0;
     text-align: center; }
     @media only screen and (max-width: 480px) {
-      /* line 148, C:/Users/pedro.henrick/Documents/contador/src/css/style.scss */
+      /* line 151, C:/Users/pedro.henrick/Documents/contador/src/css/style.scss */
       #contador .txt-bloco-time {
         font-size: 50px; } }
-  /* line 158, C:/Users/pedro.henrick/Documents/contador/src/css/style.scss */
+  /* line 161, C:/Users/pedro.henrick/Documents/contador/src/css/style.scss */
   #contador .contador {
     height: auto;
     text-align: center; }
-  /* line 163, C:/Users/pedro.henrick/Documents/contador/src/css/style.scss */
+  /* line 166, C:/Users/pedro.henrick/Documents/contador/src/css/style.scss */
   #contador .bloco {
     display: inline-block;
     text-align: center;
     vertical-align: top; }
-  /* line 168, C:/Users/pedro.henrick/Documents/contador/src/css/style.scss */
+  /* line 171, C:/Users/pedro.henrick/Documents/contador/src/css/style.scss */
   #contador .colon {
     color: #fff;
     display: inline-block;
     font-size: 60px;
     font-weight: bold; }
     @media only screen and (max-width: 480px) {
-      /* line 168, C:/Users/pedro.henrick/Documents/contador/src/css/style.scss */
+      /* line 171, C:/Users/pedro.henrick/Documents/contador/src/css/style.scss */
       #contador .colon {
         font-size: 20px; } }
-  /* line 177, C:/Users/pedro.henrick/Documents/contador/src/css/style.scss */
+  /* line 180, C:/Users/pedro.henrick/Documents/contador/src/css/style.scss */
   #contador .txt-time {
     color: #fff;
     font-size: 25px;
     font-weight: bold; }
     @media only screen and (max-width: 480px) {
-      /* line 177, C:/Users/pedro.henrick/Documents/contador/src/css/style.scss */
+      /* line 180, C:/Users/pedro.henrick/Documents/contador/src/css/style.scss */
       #contador .txt-time {
         font-size: 15px; } }
 
-/* line 188, C:/Users/pedro.henrick/Documents/contador/src/css/style.scss */
+/* line 191, C:/Users/pedro.henrick/Documents/contador/src/css/style.scss */
 #spotify {
   width: 100%; }
-  /* line 190, C:/Users/pedro.henrick/Documents/contador/src/css/style.scss */
+  /* line 193, C:/Users/pedro.henrick/Documents/contador/src/css/style.scss */
   #spotify .playlist {
     text-align: center; }
-  /* line 193, C:/Users/pedro.henrick/Documents/contador/src/css/style.scss */
+  /* line 196, C:/Users/pedro.henrick/Documents/contador/src/css/style.scss */
   #spotify a {
     font-family: 'Gotham-Light';
     color: #81d48c;
