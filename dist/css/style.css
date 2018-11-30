@@ -24,51 +24,62 @@
   font-weight: 700;
   font-style: normal; }
 
-/* line 37, C:/Users/pedro.henrick/Documents/contador/src/css/style.scss */
+@font-face {
+  font-family: 'Gotham-Bold';
+  src: url("/fonts/hinted-Gotham-Bold.eot");
+  /* IE9 Compat Modes */
+  src: url("/fonts/hinted-Gotham-Bold.eot?#iefix") format("embedded-opentype"), url("/fonts/hinted-Gotham-Bold.woff") format("woff"), url("/fonts/hinted-Gotham-Bold.ttf") format("truetype"), url("/fonts/hinted-Gotham-Bold.svg#svgFontName") format("svg");
+  /* Legacy iOS */
+  font-weight: 700;
+  font-style: normal; }
+
+/* line 48, C:/Users/pedro.henrick/Documents/contador/src/css/style.scss */
 body {
+  font-family: 'Gotham-Light';
   margin: 0;
   padding: 0; }
 
-/* line 42, C:/Users/pedro.henrick/Documents/contador/src/css/style.scss */
+/* line 54, C:/Users/pedro.henrick/Documents/contador/src/css/style.scss */
 .container {
   margin-left: auto;
   margin-right: auto;
   max-width: 1110px !important;
+  text-align: center;
   width: 95% !important; }
 
-/* line 49, C:/Users/pedro.henrick/Documents/contador/src/css/style.scss */
+/* line 62, C:/Users/pedro.henrick/Documents/contador/src/css/style.scss */
 .show-mobile {
   display: none;
   visibility: hidden; }
   @media only screen and (max-width: 480px) {
-    /* line 49, C:/Users/pedro.henrick/Documents/contador/src/css/style.scss */
+    /* line 62, C:/Users/pedro.henrick/Documents/contador/src/css/style.scss */
     .show-mobile {
       display: block;
       visibility: visible; } }
 
-/* line 58, C:/Users/pedro.henrick/Documents/contador/src/css/style.scss */
+/* line 71, C:/Users/pedro.henrick/Documents/contador/src/css/style.scss */
 .hide-mobile {
   display: block;
   visibility: visible; }
   @media only screen and (max-width: 480px) {
-    /* line 58, C:/Users/pedro.henrick/Documents/contador/src/css/style.scss */
+    /* line 71, C:/Users/pedro.henrick/Documents/contador/src/css/style.scss */
     .hide-mobile {
       display: none;
       visibility: hidden; } }
 
-/* line 67, C:/Users/pedro.henrick/Documents/contador/src/css/style.scss */
+/* line 80, C:/Users/pedro.henrick/Documents/contador/src/css/style.scss */
 .logo {
   text-align: center; }
-  /* line 69, C:/Users/pedro.henrick/Documents/contador/src/css/style.scss */
+  /* line 82, C:/Users/pedro.henrick/Documents/contador/src/css/style.scss */
   .logo img {
-    max-width: 210px;
+    max-width: 500px;
     padding: 22px 0; }
     @media only screen and (max-width: 480px) {
-      /* line 69, C:/Users/pedro.henrick/Documents/contador/src/css/style.scss */
+      /* line 82, C:/Users/pedro.henrick/Documents/contador/src/css/style.scss */
       .logo img {
         max-width: 150px; } }
 
-/* line 78, C:/Users/pedro.henrick/Documents/contador/src/css/style.scss */
+/* line 91, C:/Users/pedro.henrick/Documents/contador/src/css/style.scss */
 header {
   display: inline-block;
   height: auto;
@@ -77,7 +88,7 @@ header {
   width: 100%;
   opacity: 0.5; }
 
-/* line 87, C:/Users/pedro.henrick/Documents/contador/src/css/style.scss */
+/* line 100, C:/Users/pedro.henrick/Documents/contador/src/css/style.scss */
 #mask {
   background-color: #000;
   position: absolute;
@@ -89,7 +100,7 @@ header {
   opacity: 0.6;
   z-index: -99; }
 
-/* line 99, C:/Users/pedro.henrick/Documents/contador/src/css/style.scss */
+/* line 112, C:/Users/pedro.henrick/Documents/contador/src/css/style.scss */
 .video-desktop {
   position: fixed;
   right: 0;
@@ -99,93 +110,121 @@ header {
   width: auto;
   height: auto;
   z-index: -100; }
-  /* line 108, C:/Users/pedro.henrick/Documents/contador/src/css/style.scss */
+  /* line 121, C:/Users/pedro.henrick/Documents/contador/src/css/style.scss */
   .video-desktop iframe {
     height: 100vh;
     width: 100%;
     transform: scale(1.4); }
 
-/* line 116, C:/Users/pedro.henrick/Documents/contador/src/css/style.scss */
+/* line 129, C:/Users/pedro.henrick/Documents/contador/src/css/style.scss */
 #contador {
   font-family: 'Gotham-ExtraLight';
   margin-top: 100px; }
   @media only screen and (max-width: 480px) {
-    /* line 116, C:/Users/pedro.henrick/Documents/contador/src/css/style.scss */
+    /* line 129, C:/Users/pedro.henrick/Documents/contador/src/css/style.scss */
     #contador {
       margin-top: 50px; } }
-  /* line 123, C:/Users/pedro.henrick/Documents/contador/src/css/style.scss */
+  /* line 136, C:/Users/pedro.henrick/Documents/contador/src/css/style.scss */
   #contador .txt-bloco-contador {
     letter-spacing: 20px;
     text-shadow: 1px 1px 1px #fff; }
-  /* line 128, C:/Users/pedro.henrick/Documents/contador/src/css/style.scss */
+  /* line 141, C:/Users/pedro.henrick/Documents/contador/src/css/style.scss */
   #contador .txt-bloco-time {
     font-family: 'Gotham-Light'; }
-  /* line 132, C:/Users/pedro.henrick/Documents/contador/src/css/style.scss */
+  /* line 145, C:/Users/pedro.henrick/Documents/contador/src/css/style.scss */
   #contador .txt-bloco-contador,
   #contador .txt-bloco-time {
     font-size: 80px;
-    color: #68cc92;
+    color: #00ff01;
     text-align: center;
     text-transform: uppercase; }
     @media only screen and (max-width: 480px) {
-      /* line 132, C:/Users/pedro.henrick/Documents/contador/src/css/style.scss */
+      /* line 145, C:/Users/pedro.henrick/Documents/contador/src/css/style.scss */
       #contador .txt-bloco-contador,
       #contador .txt-bloco-time {
         font-size: 40px; } }
-  /* line 143, C:/Users/pedro.henrick/Documents/contador/src/css/style.scss */
+  /* line 156, C:/Users/pedro.henrick/Documents/contador/src/css/style.scss */
   #contador .txt-bloco-contador-down {
     letter-spacing: 0;
     text-transform: none; }
     @media only screen and (max-width: 480px) {
-      /* line 143, C:/Users/pedro.henrick/Documents/contador/src/css/style.scss */
+      /* line 156, C:/Users/pedro.henrick/Documents/contador/src/css/style.scss */
       #contador .txt-bloco-contador-down {
         font-size: 30px; } }
-  /* line 151, C:/Users/pedro.henrick/Documents/contador/src/css/style.scss */
+  /* line 164, C:/Users/pedro.henrick/Documents/contador/src/css/style.scss */
   #contador .txt-bloco-time {
     font-size: 150px;
     height: auto;
     padding-right: 0;
     text-align: center; }
     @media only screen and (max-width: 480px) {
-      /* line 151, C:/Users/pedro.henrick/Documents/contador/src/css/style.scss */
+      /* line 164, C:/Users/pedro.henrick/Documents/contador/src/css/style.scss */
       #contador .txt-bloco-time {
         font-size: 50px; } }
-  /* line 161, C:/Users/pedro.henrick/Documents/contador/src/css/style.scss */
+  /* line 174, C:/Users/pedro.henrick/Documents/contador/src/css/style.scss */
   #contador .contador {
     height: auto;
     text-align: center; }
-  /* line 166, C:/Users/pedro.henrick/Documents/contador/src/css/style.scss */
+  /* line 179, C:/Users/pedro.henrick/Documents/contador/src/css/style.scss */
   #contador .bloco {
     display: inline-block;
     text-align: center;
     vertical-align: top; }
-  /* line 171, C:/Users/pedro.henrick/Documents/contador/src/css/style.scss */
+  /* line 184, C:/Users/pedro.henrick/Documents/contador/src/css/style.scss */
   #contador .colon {
     color: #fff;
     display: inline-block;
     font-size: 60px;
     font-weight: bold; }
     @media only screen and (max-width: 480px) {
-      /* line 171, C:/Users/pedro.henrick/Documents/contador/src/css/style.scss */
+      /* line 184, C:/Users/pedro.henrick/Documents/contador/src/css/style.scss */
       #contador .colon {
         font-size: 20px; } }
-  /* line 180, C:/Users/pedro.henrick/Documents/contador/src/css/style.scss */
+  /* line 193, C:/Users/pedro.henrick/Documents/contador/src/css/style.scss */
   #contador .txt-time {
     color: #fff;
     font-size: 25px;
     font-weight: bold; }
     @media only screen and (max-width: 480px) {
-      /* line 180, C:/Users/pedro.henrick/Documents/contador/src/css/style.scss */
+      /* line 193, C:/Users/pedro.henrick/Documents/contador/src/css/style.scss */
       #contador .txt-time {
         font-size: 15px; } }
 
-/* line 191, C:/Users/pedro.henrick/Documents/contador/src/css/style.scss */
+/* line 204, C:/Users/pedro.henrick/Documents/contador/src/css/style.scss */
+#play-game {
+  background-color: #fff;
+  border-radius: 23px;
+  cursor: pointer;
+  margin: 0 auto;
+  margin-top: 50px;
+  padding: 15px;
+  width: 300px;
+  transition: all .3s ease;
+  animation: zoom .8s alternate infinite ease; }
+  /* line 214, C:/Users/pedro.henrick/Documents/contador/src/css/style.scss */
+  #play-game:hover {
+    background-color: #00ff01; }
+  /* line 217, C:/Users/pedro.henrick/Documents/contador/src/css/style.scss */
+  #play-game .txt-play {
+    color: #000;
+    font-family: 'Gotham-Bold';
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none; }
+
+@keyframes zoom {
+  0% {
+    transform: scale(1); }
+  100% {
+    transform: scale(0.9); } }
+
+/* line 232, C:/Users/pedro.henrick/Documents/contador/src/css/style.scss */
 #spotify {
   width: 100%; }
-  /* line 193, C:/Users/pedro.henrick/Documents/contador/src/css/style.scss */
+  /* line 234, C:/Users/pedro.henrick/Documents/contador/src/css/style.scss */
   #spotify .playlist {
     text-align: center; }
-  /* line 196, C:/Users/pedro.henrick/Documents/contador/src/css/style.scss */
+  /* line 237, C:/Users/pedro.henrick/Documents/contador/src/css/style.scss */
   #spotify a {
     font-family: 'Gotham-Light';
     color: #81d48c;

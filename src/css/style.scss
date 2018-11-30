@@ -33,16 +33,29 @@
    font-weight: 700;
    font-style: normal;
  }
+ 
+ @font-face {
+  font-family: 'Gotham-Bold';
+  src: url('/fonts/hinted-Gotham-Bold.eot'); /* IE9 Compat Modes */
+  src: url('/fonts/hinted-Gotham-Bold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+     url('/fonts/hinted-Gotham-Bold.woff') format('woff'), /* Modern Browsers */
+     url('/fonts/hinted-Gotham-Bold.ttf')  format('truetype'), /* Safari, Android, iOS */
+     url('/fonts/hinted-Gotham-Bold.svg#svgFontName') format('svg'); /* Legacy iOS */
+   font-weight: 700;
+   font-style: normal;
+ }
 
 body {
-  margin: 0;
-  padding: 0;
+	font-family: 'Gotham-Light';
+  	margin: 0;
+  	padding: 0;
 }
 
 .container {
 	margin-left: auto;
 	margin-right: auto;
 	max-width: 1110px!important;
+	text-align: center;
 	width: 95%!important;
 }
 
@@ -67,7 +80,7 @@ body {
 .logo {
 	text-align: center;
 	img {
-		max-width: 210px;
+		max-width: 500px;
 		padding: 22px 0;
 		@media only screen and (max-width: 480px) {
 			max-width: 150px;
@@ -132,7 +145,7 @@ header {
 	.txt-bloco-contador,
 	.txt-bloco-time {
 		font-size: 80px;
-		color: #68cc92;
+		color: #00ff01;
 		text-align: center;
 		text-transform: uppercase;
 		@media only screen and (max-width: 480px) {
@@ -186,6 +199,34 @@ header {
 		}
 	}
 }
+
+// playgame
+#play-game {
+	background-color: #fff;
+	border-radius: 23px;
+	cursor: pointer;
+	margin: 0 auto;
+	margin-top: 50px;
+	padding: 15px;
+	width: 300px;
+	transition: all .3s ease;
+	animation: zoom .8s alternate infinite ease;
+	&:hover {
+		background-color: #00ff01;
+	}
+	.txt-play {
+		color: #000;
+		font-family: 'Gotham-Bold';
+		font-size: 18px;
+		font-weight: bold;
+		text-decoration: none;
+	}
+}
+
+@keyframes zoom {
+	0%   {transform: scale(1);}
+	100% {transform: scale(.9);}
+  }
 
 // spotify
 #spotify {

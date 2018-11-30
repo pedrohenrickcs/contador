@@ -1,7 +1,7 @@
 'use strict';
 
 var self = this,
-	endDate = 'December 14, 2018';
+	endDate = 'December 14, 2018, 08:00';
 
 this.init = function() {
 	this.refreshAndDisplay();
